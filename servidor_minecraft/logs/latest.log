@@ -1,0 +1,497 @@
+[19Dec2025 00:54:31.327] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
+[19Dec2025 00:54:31.333] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.17 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[19Dec2025 00:54:36.858] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/symmetrical-octo-engine/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[19Dec2025 00:54:37.507] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/symmetrical-octo-engine/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
+[19Dec2025 00:54:37.508] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/symmetrical-octo-engine/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[19Dec2025 00:54:37.509] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/symmetrical-octo-engine/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[19Dec2025 00:54:37.510] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/symmetrical-octo-engine/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[19Dec2025 00:54:37.975] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
+[19Dec2025 00:54:40.087] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[19Dec2025 00:54:40.221] [main/ERROR] [mixin/]: Mixin config necronomicon.forge.mixins.json does not specify "minVersion" property
+[19Dec2025 00:54:40.272] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[19Dec2025 00:54:40.383] [main/WARN] [mixin/]: Reference map 'insanelib.refmap.json' for insanelib.mixins.json could not be read. If this is a development environment you can ignore this message
+[19Dec2025 00:54:40.535] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.18.1+mc1.19.2: 87 options available, 1 override(s) found
+[19Dec2025 00:54:40.535] [main/WARN] [ModernFix/]: Option 'mixin.bugfix.item_cache_flag' overriden (by mods [canary]) to 'false'
+[19Dec2025 00:54:40.536] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[19Dec2025 00:54:40.551] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[19Dec2025 00:54:40.595] [main/WARN] [mixin/]: Reference map 'simplyswords-common-refmap.json' for simplyswords-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[19Dec2025 00:54:40.596] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[19Dec2025 00:54:40.605] [main/WARN] [mixin/]: Reference map 'fastpaintings-forge-refmap.json' for fastpaintings-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[19Dec2025 00:54:40.700] [main/INFO] [Canary/]: Loaded configuration file for Canary: 117 options available, 0 override(s) found
+[19Dec2025 00:54:40.708] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[19Dec2025 00:54:40.816] [main/WARN] [mixin/]: Reference map 'packetfixer-forge-forge-refmap.json' for packetfixer-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[19Dec2025 00:54:41.362] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[19Dec2025 00:54:41.404] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[19Dec2025 00:54:42.234] [main/WARN] [dev.tonimatas.packetfixer.mixins.MixinConfigPlugin/]: You are using connectivity for fix "Badly compressed packet - size of " + X + " is larger than protocol maximum of 8388608" if you have and issue with that delete connectivity.
+[19Dec2025 00:54:42.625] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[19Dec2025 00:54:43.470] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_216202_ in modernfix-forge.mixins.json:perf.tag_id_caching.TagOrElementLocationMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[19Dec2025 00:54:43.792] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (19.67 s after launch)
+[19Dec2025 00:54:43.960] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[19Dec2025 00:54:43.960] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[19Dec2025 00:54:44.065] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[19Dec2025 00:54:44.065] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[19Dec2025 00:54:44.066] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into m_60823_ from com.abdelaziz.canary.mixin.block.flatten_states.BlockStateBaseMixin
+[19Dec2025 00:54:44.358] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[19Dec2025 00:54:44.359] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[19Dec2025 00:54:45.830] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2035 milliseconds
+[19Dec2025 00:54:45.922] [main/WARN] [mixin/]: @ModifyConstant conflict. Skipping connectivity.mixins.json:ClientBoundCustomPayloadPacketLMixin->@ModifyConstant::modifyLimit(I)I with priority 1, already redirected by packetfixer-common.mixins.json:ClientboundCustomPayloadPacketMixin->@ModifyConstant::newSize(I)I with priority 9999
+[19Dec2025 00:54:45.922] [main/WARN] [mixin/]: @ModifyConstant conflict. Skipping connectivity.mixins.json:ClientBoundCustomPayloadPacketLMixin->@ModifyConstant::modifyLimit(I)I with priority 1, already redirected by packetfixer-common.mixins.json:ClientboundCustomPayloadPacketMixin->@ModifyConstant::newSize(I)I with priority 9999
+[19Dec2025 00:54:46.497] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[19Dec2025 00:54:46.497] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[19Dec2025 00:54:48.083] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[19Dec2025 00:54:49.112] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.feature.TagsFeature
+[19Dec2025 00:54:49.163] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.feature.FixFeature
+[19Dec2025 00:54:49.169] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.feature.AEC3DFeature
+[19Dec2025 00:54:49.216] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[19Dec2025 00:54:49.272] [modloading-worker-0/INFO] [net.permutated.novillagerdm.NoVillagerDeathMessages/]: Registering mod: novillagerdm
+[19Dec2025 00:54:49.279] [modloading-worker-0/INFO] [dev.wuffs.bcc.BCC/]: Better Compatibility Checker loading
+[19Dec2025 00:54:49.369] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.64.
+[19Dec2025 00:54:49.458] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[19Dec2025 00:54:49.469] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.zombie.feature.PearlerZombie
+[19Dec2025 00:54:49.475] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.zombie.feature.FisherZombie
+[19Dec2025 00:54:49.478] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.zombie.feature.DiggerZombie
+[19Dec2025 00:54:49.481] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.feature.WitchPotionThrowing
+[19Dec2025 00:54:49.483] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.feature.WitchFleeTarget
+[19Dec2025 00:54:49.488] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.feature.ThirstyWitches
+[19Dec2025 00:54:49.494] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.feature.DarkArtWitch
+[19Dec2025 00:54:49.503] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.villager.feature.VillagerAttacking
+[19Dec2025 00:54:49.516] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.spider.feature.ThrowingWeb
+[19Dec2025 00:54:49.522] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.spider.feature.Misc
+[19Dec2025 00:54:49.526] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.skeleton.feature.SkeletonShoot
+[19Dec2025 00:54:49.531] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.skeleton.feature.SkeletonFleeTarget
+[19Dec2025 00:54:49.532] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: No module found with ID enhancedai:mobs
+[19Dec2025 00:54:49.535] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.ghast.feature.GhastShoot
+[19Dec2025 00:54:49.537] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.enderman.feature.ItemDisruption
+[19Dec2025 00:54:49.541] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.enderman.feature.GetOverHere
+[19Dec2025 00:54:49.543] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.drowned.feature.DrownedSwimming
+[19Dec2025 00:54:49.547] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.creeper.feature.CreeperSwell
+[19Dec2025 00:54:49.559] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.blaze.feature.BlazeAttack
+[19Dec2025 00:54:49.564] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.base.feature.Targeting
+[19Dec2025 00:54:49.567] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[19Dec2025 00:54:49.580] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.base.feature.Shielding
+[19Dec2025 00:54:49.584] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.base.feature.Movement
+[19Dec2025 00:54:49.586] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.base.feature.Base
+[19Dec2025 00:54:49.587] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.base.feature.AvoidExplosions
+[19Dec2025 00:54:49.589] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.base.feature.Attacking
+[19Dec2025 00:54:49.589] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.base.feature.AntiCheese
+[19Dec2025 00:54:49.592] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.animal.feature.AnimalAttacking
+[19Dec2025 00:54:49.689] [modloading-worker-0/INFO] [KubeJS/]: Looking for KubeJS plugins...
+[19Dec2025 00:54:49.698] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs
+[19Dec2025 00:54:49.739] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod visualworkbench
+[19Dec2025 00:54:49.748] [modloading-worker-0/INFO] [KubeJS/]: Loaded common.properties
+[19Dec2025 00:54:49.761] [modloading-worker-0/INFO] [KubeJS/]: Loaded dev.properties
+[19Dec2025 00:54:49.762] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin does not load on server side, skipping
+[19Dec2025 00:54:49.762] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration does not have required mod gamestages loaded, skipping
+[19Dec2025 00:54:49.765] [modloading-worker-0/INFO] [KubeJS/]: Done in 75.02 ms
+[19Dec2025 00:54:49.965] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
+[19Dec2025 00:54:49.965] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.2 Initialized
+[19Dec2025 00:54:50.016] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading Rhino Minecraft remapper...
+[19Dec2025 00:54:50.019] [modloading-worker-0/INFO] [dev.latvian.mods.rhino.mod.util.RhinoProperties/]: Rhino properties loaded.
+[19Dec2025 00:54:50.031] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading mappings for 1.19.2
+[19Dec2025 00:54:50.113] [modloading-worker-0/WARN] [net.blay09.mods.balm.forge.config.ForgeBalmConfig/]: Config field without expected type, will not validate list content (compressBlacklist in net.blay09.mods.craftingtweaks.config.CraftingTweaksConfigData$Common)
+[19Dec2025 00:54:50.116] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Done in 0.098 s
+[19Dec2025 00:54:50.118] [modloading-worker-0/WARN] [net.blay09.mods.balm.forge.config.ForgeBalmConfig/]: Config field without expected type, will not validate list content (disabledAddons in net.blay09.mods.craftingtweaks.config.CraftingTweaksConfigData$Client)
+[19Dec2025 00:54:50.369] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/mojang/blaze3d/vertex/PoseStack for invalid dist DEDICATED_SERVER
+[19Dec2025 00:54:50.374] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
+[19Dec2025 00:54:50.582] [modloading-worker-0/INFO] [KubeJS Startup/]: example.js#5: Hello, World! (Loaded startup scripts)
+[19Dec2025 00:54:50.584] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:example.js in 0.11 s
+[19Dec2025 00:54:50.588] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded 1/1 KubeJS startup scripts in 0.469 s
+[19Dec2025 00:54:50.646] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod puzzleslib
+[19Dec2025 00:54:50.652] [modloading-worker-0/INFO] [dev.tonimatas.packetfixer.PacketFixer/]: Packet Fixer has been initialized successfully
+[19Dec2025 00:54:50.669] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:send_data_from_client
+[19Dec2025 00:54:50.673] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:first_click
+[19Dec2025 00:54:51.314] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[19Dec2025 00:54:51.314] [main/INFO] [ModernFix/]: Instantiating Mojang DFU
+[19Dec2025 00:54:51.741] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[19Dec2025 00:54:52.114] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[19Dec2025 00:54:52.124] [modloading-worker-0/INFO] [com.connectivity.Connectivity/]: Connectivity initialized
+[19Dec2025 00:54:52.131] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.item_obliterator.forge.config.ConfigEntries.
+[19Dec2025 00:54:52.132] [modloading-worker-0/INFO] [io.github.jamalam360.rightclickharvest.RightClickHarvestModInit/]: Initialized
+[19Dec2025 00:54:52.131] [modloading-worker-0/INFO] [dev.wuffs.bcc.BCC/]: Better Compatibility Checker setting up
+[19Dec2025 00:54:52.137] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.item_obliterator.forge.config.ConfigEntries read successfully.
+[19Dec2025 00:54:52.149] [modloading-worker-0/INFO] [elocindev.item_obliterator.forge.ItemObliterator/]: Loaded Item Obliterator Config
+[19Dec2025 00:54:52.164] [modloading-worker-0/INFO] [com.logprot.Logprot/]: Shields up!
+[19Dec2025 00:54:52.165] [modloading-worker-0/INFO] [necronomicon/]: Necronomicon Initialized
+[19Dec2025 00:54:52.166] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
+[19Dec2025 00:54:52.167] [modloading-worker-0/INFO] [studio.lunareclipse.watching.Init/]: From The Fog Loaded Successfully!
+[19Dec2025 00:54:52.169] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
+[19Dec2025 00:54:52.170] [modloading-worker-0/INFO] [com.betterchunkloading.BetterChunkLoading/]: betterchunkloading mod initialized
+[19Dec2025 00:54:52.181] [modloading-worker-0/INFO] [com.chunksending.ChunkSending/]: chunksending mod initialized
+[19Dec2025 00:54:52.197] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
+[19Dec2025 00:54:52.253] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancementplaques] Starting version check at https://mc-update-check.anthonyhilyard.com/499826
+[19Dec2025 00:54:52.317] [main/INFO] [moonlight/]: Initialized color sets in 24ms
+[19Dec2025 00:54:52.342] [main/INFO] [moonlight/]: Initialized color sets in 24ms
+[19Dec2025 00:54:52.516] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancementplaques] Found status: UP_TO_DATE Current: 1.4.7 Target: null
+[19Dec2025 00:54:52.517] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/Library/update.json
+[19Dec2025 00:54:52.570] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Found status: AHEAD Current: 7.0.5-backport.1 Target: null
+[19Dec2025 00:54:52.570] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fastload] Starting version check at https://github.com/BumbleSoftware/Fastload/raw/Forge-1.20.1/updates.json
+[19Dec2025 00:54:52.741] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fastload] Found status: UP_TO_DATE Current: 3.4.0 Target: null
+[19Dec2025 00:54:52.741] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [visualworkbench] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/visualworkbench.json
+[19Dec2025 00:54:52.752] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [visualworkbench] Found status: UP_TO_DATE Current: 4.2.4 Target: null
+[19Dec2025 00:54:52.752] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.19.2
+[19Dec2025 00:54:52.770] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[19Dec2025 00:54:52.923] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19Dec2025 00:54:53.151] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/symmetrical-octo-engine/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23299!/assets/.mcassetsroot' uses unexpected schema
+[19Dec2025 00:54:53.151] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/symmetrical-octo-engine/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23299!/data/.mcassetsroot' uses unexpected schema
+[19Dec2025 00:54:53.157] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 9.0.0+14 Target: 9.0.0+14
+[19Dec2025 00:54:53.158] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Starting version check at https://updates.blamejared.com/get?n=badmobs&gv=1.19.2
+[19Dec2025 00:54:53.265] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Found status: BETA Current: 16.1.3 Target: 16.1.3
+[19Dec2025 00:54:53.265] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[19Dec2025 00:54:53.409] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/mojang/blaze3d/vertex/PoseStack for invalid dist DEDICATED_SERVER
+[19Dec2025 00:54:53.421] [main/INFO] [KubeJS Server/]: example.js#5: Hello, World! (Loaded server scripts)
+[19Dec2025 00:54:53.422] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:example.js in 0.001 s
+[19Dec2025 00:54:53.422] [main/INFO] [KubeJS Server/]: Loaded 1/1 KubeJS server scripts in 0.017 s
+[19Dec2025 00:54:53.423] [main/INFO] [KubeJS Server/]: Scripts loaded
+[19Dec2025 00:54:53.436] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.4.2 Target: 43.5.0
+[19Dec2025 00:54:53.437] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [simplebackups] Starting version check at https://assets.melanx.de/updates/simple-backups.json
+[19Dec2025 00:54:53.596] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [simplebackups] Found status: OUTDATED Current: 1.19.1-2.1.11 Target: 1.19.1-2.1.12
+[19Dec2025 00:54:53.596] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[19Dec2025 00:54:53.605] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: UP_TO_DATE Current: 1.19.2-2.3.7 Target: null
+[19Dec2025 00:54:53.606] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
+[19Dec2025 00:54:53.630] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Found status: UP_TO_DATE Current: 1.1.4 Target: null
+[19Dec2025 00:54:53.630] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Starting version check at https://github.com/AbdElAziz333/Canary/raw/mc1.19.2/dev/updates.json
+[19Dec2025 00:54:53.649] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Found status: UP_TO_DATE Current: 0.3.3 Target: null
+[19Dec2025 00:54:53.650] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[19Dec2025 00:54:53.660] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 4.4.3 Target: null
+[19Dec2025 00:54:53.660] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [packetfixer] Starting version check at https://api.modrinth.com/updates/packet-fixer/forge_updates.json
+[19Dec2025 00:54:53.768] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [packetfixer] Found status: OUTDATED Current: 1.4.2 Target: 3.3.1
+[19Dec2025 00:54:54.747] [Worker-Main-3/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_215924_ in modernfix-forge.mixins.json:perf.tag_id_caching.TagEntryMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[19Dec2025 00:54:54.912] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/aquarium/aquarium_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/aquarium/aquarium_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/aquarium/aquarium_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/aquarium/aquarium_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/aquarium/aquarium_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/aquarium/aquarium_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/aquarium/aquarium_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/aquarium/aquarium_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/aquarium/aquarium_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/aquarium/aquarium_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/aquarium/aquarium_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/aquarium/aquarium_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/aquarium/aquarium_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/aquarium/aquarium_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/aquarium/aquarium_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/aquarium/aquarium_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/aquarium/aquarium_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/aquarium/aquarium_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/aquarium/aquarium_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/aquarium/aquarium_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/aquarium/aquarium_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/aquarium/aquarium_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/aquarium/aquarium_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/aquarium/aquarium_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/aquarium/aquarium_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/aquarium/aquarium_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/aquarium/aquarium_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/aquarium/aquarium_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/aquarium/aquarium_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/aquarium/aquarium_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[19Dec2025 00:54:54.917] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/quadrillum/quadrillum_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/quadrillum/quadrillum_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/quadrillum/quadrillum_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/quadrillum/quadrillum_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/quadrillum/quadrillum_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/quadrillum/quadrillum_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/quadrillum/quadrillum_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/quadrillum/quadrillum_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/quadrillum/quadrillum_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/quadrillum/quadrillum_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/quadrillum/quadrillum_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/quadrillum/quadrillum_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/quadrillum/quadrillum_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/quadrillum/quadrillum_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/quadrillum/quadrillum_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/quadrillum/quadrillum_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/quadrillum/quadrillum_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/quadrillum/quadrillum_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/quadrillum/quadrillum_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/quadrillum/quadrillum_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/quadrillum/quadrillum_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/quadrillum/quadrillum_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/quadrillum/quadrillum_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/quadrillum/quadrillum_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/quadrillum/quadrillum_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/quadrillum/quadrillum_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/quadrillum/quadrillum_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/quadrillum/quadrillum_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/quadrillum/quadrillum_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/quadrillum/quadrillum_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[19Dec2025 00:54:54.918] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [mythicmetals:mythicmetals_compat/carmot/carmot_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), mythicmetals:mythicmetals_compat/carmot/carmot_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), mythicmetals:mythicmetals_compat/carmot/carmot_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), mythicmetals:mythicmetals_compat/carmot/carmot_katana (from simplyswords-forge-1.47.0-1.19.2.jar), mythicmetals:mythicmetals_compat/carmot/carmot_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), mythicmetals:mythicmetals_compat/carmot/carmot_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), mythicmetals:mythicmetals_compat/carmot/carmot_sai (from simplyswords-forge-1.47.0-1.19.2.jar), mythicmetals:mythicmetals_compat/carmot/carmot_spear (from simplyswords-forge-1.47.0-1.19.2.jar), mythicmetals:mythicmetals_compat/carmot/carmot_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), mythicmetals:mythicmetals_compat/carmot/carmot_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), mythicmetals:mythicmetals_compat/carmot/carmot_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), mythicmetals:mythicmetals_compat/carmot/carmot_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), mythicmetals:mythicmetals_compat/carmot/carmot_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), mythicmetals:mythicmetals_compat/carmot/carmot_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), mythicmetals:mythicmetals_compat/carmot/carmot_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: mythicmetals:mythicmetals_compat/carmot/carmot_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	mythicmetals:mythicmetals_compat/carmot/carmot_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	mythicmetals:mythicmetals_compat/carmot/carmot_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	mythicmetals:mythicmetals_compat/carmot/carmot_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	mythicmetals:mythicmetals_compat/carmot/carmot_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	mythicmetals:mythicmetals_compat/carmot/carmot_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	mythicmetals:mythicmetals_compat/carmot/carmot_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	mythicmetals:mythicmetals_compat/carmot/carmot_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	mythicmetals:mythicmetals_compat/carmot/carmot_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	mythicmetals:mythicmetals_compat/carmot/carmot_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	mythicmetals:mythicmetals_compat/carmot/carmot_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	mythicmetals:mythicmetals_compat/carmot/carmot_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	mythicmetals:mythicmetals_compat/carmot/carmot_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	mythicmetals:mythicmetals_compat/carmot/carmot_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	mythicmetals:mythicmetals_compat/carmot/carmot_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[19Dec2025 00:54:54.922] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/durasteel/durasteel_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/durasteel/durasteel_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar)
+[19Dec2025 00:54:54.925] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/banglum/banglum_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/banglum/banglum_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/banglum/banglum_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/banglum/banglum_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/banglum/banglum_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/banglum/banglum_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/banglum/banglum_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/banglum/banglum_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/banglum/banglum_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/banglum/banglum_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/banglum/banglum_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/banglum/banglum_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/banglum/banglum_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/banglum/banglum_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/banglum/halberd_scythe (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/banglum/banglum_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/banglum/banglum_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/banglum/banglum_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/banglum/banglum_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/banglum/banglum_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/banglum/banglum_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/banglum/banglum_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/banglum/banglum_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/banglum/banglum_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/banglum/banglum_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/banglum/banglum_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/banglum/banglum_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/banglum/banglum_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/banglum/banglum_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/banglum/halberd_scythe (from simplyswords-forge-1.47.0-1.19.2.jar)
+[19Dec2025 00:54:54.931] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/copper/copper_longsword (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/copper/copper_longsword (from simplyswords-forge-1.47.0-1.19.2.jar)
+[19Dec2025 00:54:54.932] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/osmium/osmium_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/osmium/osmium_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/osmium/osmium_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/osmium/osmium_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/osmium/osmium_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/osmium/osmium_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/osmium/osmium_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/osmium/osmium_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/osmium/osmium_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/osmium/osmium_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/osmium/osmium_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/osmium/osmium_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/osmium/osmium_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/osmium/osmium_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/osmium/osmium_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/osmium/osmium_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/osmium/osmium_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/osmium/osmium_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/osmium/osmium_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/osmium/osmium_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/osmium/osmium_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/osmium/osmium_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/osmium/osmium_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/osmium/osmium_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/osmium/osmium_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/osmium/osmium_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/osmium/osmium_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/osmium/osmium_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/osmium/osmium_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/osmium/osmium_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[19Dec2025 00:54:54.933] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/prometheum/prometheum_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/prometheum/prometheum_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[19Dec2025 00:54:54.934] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/steel/steel_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/steel/steel_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/steel/steel_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/steel/steel_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/steel/steel_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/steel/steel_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/steel/steel_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/steel/steel_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/steel/steel_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/steel/steel_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/steel/steel_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/steel/steel_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/steel/steel_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/steel/steel_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/steel/steel_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/steel/steel_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/steel/steel_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/steel/steel_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/steel/steel_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/steel/steel_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/steel/steel_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/steel/steel_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/steel/steel_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/steel/steel_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/steel/steel_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/steel/steel_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/steel/steel_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/steel/steel_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/steel/steel_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/steel/steel_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[19Dec2025 00:54:54.934] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/star_platinum/star_platinum_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/star_platinum/star_platinum_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/star_platinum/star_platinum_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/star_platinum/star_platinum_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/star_platinum/star_platinum_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/star_platinum/star_platinum_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/star_platinum/star_platinum_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/star_platinum/star_platinum_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/star_platinum/star_platinum_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/star_platinum/star_platinum_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/star_platinum/star_platinum_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/star_platinum/star_platinum_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/star_platinum/star_platinum_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/star_platinum/star_platinum_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/star_platinum/star_platinum_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/star_platinum/star_platinum_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/star_platinum/star_platinum_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/star_platinum/star_platinum_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/star_platinum/star_platinum_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/star_platinum/star_platinum_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/star_platinum/star_platinum_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/star_platinum/star_platinum_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/star_platinum/star_platinum_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/star_platinum/star_platinum_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/star_platinum/star_platinum_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/star_platinum/star_platinum_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/star_platinum/star_platinum_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/star_platinum/star_platinum_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/star_platinum/star_platinum_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/star_platinum/star_platinum_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[19Dec2025 00:54:54.935] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/stormyx/stormyx_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/stormyx/stormyx_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/stormyx/stormyx_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/stormyx/stormyx_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/stormyx/stormyx_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/stormyx/stormyx_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/stormyx/stormyx_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/stormyx/stormyx_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/stormyx/stormyx_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/stormyx/stormyx_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/stormyx/stormyx_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/stormyx/stormyx_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/stormyx/stormyx_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/stormyx/stormyx_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/stormyx/stormyx_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/stormyx/stormyx_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/stormyx/stormyx_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/stormyx/stormyx_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/stormyx/stormyx_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/stormyx/stormyx_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/stormyx/stormyx_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/stormyx/stormyx_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/stormyx/stormyx_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/stormyx/stormyx_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/stormyx/stormyx_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/stormyx/stormyx_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/stormyx/stormyx_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/stormyx/stormyx_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/stormyx/stormyx_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/stormyx/stormyx_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[19Dec2025 00:54:54.939] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/runite/runite_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/runite/runite_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/runite/runite_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/runite/runite_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/runite/runite_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/runite/runite_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/runite/runite_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/runite/runite_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/runite/runite_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/runite/runite_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/runite/runite_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/runite/runite_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/runite/runite_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/runite/runite_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/runite/runite_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/runite/runite_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/runite/runite_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/runite/runite_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/runite/runite_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/runite/runite_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/runite/runite_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/runite/runite_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/runite/runite_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/runite/runite_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/runite/runite_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/runite/runite_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/runite/runite_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/runite/runite_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/runite/runite_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/runite/runite_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[19Dec2025 00:54:54.939] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/adamantite/adamantite_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/adamantite/adamantite_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/adamantite/adamantite_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/adamantite/adamantite_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/adamantite/adamantite_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/adamantite/adamantite_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/adamantite/adamantite_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/adamantite/adamantite_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/adamantite/adamantite_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/adamantite/adamantite_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/adamantite/adamantite_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/adamantite/adamantite_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/adamantite/adamantite_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/adamantite/adamantite_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/adamantite/adamantite_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/adamantite/adamantite_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/adamantite/adamantite_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/adamantite/adamantite_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/adamantite/adamantite_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/adamantite/adamantite_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/adamantite/adamantite_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/adamantite/adamantite_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/adamantite/adamantite_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/adamantite/adamantite_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/adamantite/adamantite_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/adamantite/adamantite_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/adamantite/adamantite_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/adamantite/adamantite_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/adamantite/adamantite_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/adamantite/adamantite_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[19Dec2025 00:54:54.941] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/mythril/mythril_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/mythril/mythril_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/mythril/mythril_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/mythril/mythril_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/mythril/mythril_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/mythril/mythril_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/mythril/mythril_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/mythril/mythril_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/mythril/mythril_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/mythril/mythril_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/mythril/mythril_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/mythril/mythril_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/mythril/mythril_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/mythril/mythril_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/mythril/mythril_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/mythril/mythril_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/mythril/mythril_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/mythril/mythril_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/mythril/mythril_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/mythril/mythril_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/mythril/mythril_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/mythril/mythril_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/mythril/mythril_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/mythril/mythril_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/mythril/mythril_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/mythril/mythril_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/mythril/mythril_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/mythril/mythril_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/mythril/mythril_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/mythril/mythril_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[19Dec2025 00:54:54.943] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/palladium/palladium_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/palladium/palladium_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/palladium/palladium_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/palladium/palladium_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/palladium/palladium_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/palladium/palladium_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/palladium/palladium_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/palladium/palladium_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/palladium/palladium_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/palladium/palladium_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/palladium/palladium_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/palladium/palladium_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/palladium/palladium_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/palladium/palladium_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/palladium/palladium_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/palladium/palladium_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/palladium/palladium_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/palladium/palladium_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/palladium/palladium_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/palladium/palladium_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/palladium/palladium_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/palladium/palladium_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/palladium/palladium_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/palladium/palladium_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/palladium/palladium_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/palladium/palladium_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/palladium/palladium_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/palladium/palladium_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/palladium/palladium_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/palladium/palladium_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[19Dec2025 00:54:54.947] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/kyber/kyber_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/kyber/kyber_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/kyber/kyber_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/kyber/kyber_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/kyber/kyber_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/kyber/kyber_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/kyber/kyber_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/kyber/kyber_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/kyber/kyber_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/kyber/kyber_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/kyber/kyber_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/kyber/kyber_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/kyber/kyber_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/kyber/kyber_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/kyber/kyber_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/kyber/kyber_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/kyber/kyber_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/kyber/kyber_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/kyber/kyber_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/kyber/kyber_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/kyber/kyber_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/kyber/kyber_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/kyber/kyber_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/kyber/kyber_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/kyber/kyber_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/kyber/kyber_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/kyber/kyber_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/kyber/kyber_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/kyber/kyber_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/kyber/kyber_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[19Dec2025 00:54:54.954] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/prometheum/prometheum_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/prometheum/prometheum_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/prometheum/prometheum_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/prometheum/prometheum_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[19Dec2025 00:54:54.957] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/metallurgium/metallurgium_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/metallurgium/metallurgium_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/metallurgium/metallurgium_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/metallurgium/metallurgium_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/metallurgium/metallurgium_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/metallurgium/metallurgium_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/metallurgium/metallurgium_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/metallurgium/metallurgium_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/metallurgium/metallurgium_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/metallurgium/metallurgium_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/metallurgium/metallurgium_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/metallurgium/metallurgium_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/metallurgium/metallurgium_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/metallurgium/metallurgium_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/metallurgium/metallurgium_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/metallurgium/metallurgium_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/metallurgium/metallurgium_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/metallurgium/metallurgium_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/metallurgium/metallurgium_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/metallurgium/metallurgium_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/metallurgium/metallurgium_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/metallurgium/metallurgium_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/metallurgium/metallurgium_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/metallurgium/metallurgium_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/metallurgium/metallurgium_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/metallurgium/metallurgium_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/metallurgium/metallurgium_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/metallurgium/metallurgium_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/metallurgium/metallurgium_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/metallurgium/metallurgium_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[19Dec2025 00:54:54.959] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/bronze/bronze_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/bronze/bronze_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/bronze/bronze_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/bronze/bronze_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/bronze/bronze_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/bronze/bronze_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/bronze/bronze_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/bronze/bronze_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/bronze/bronze_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/bronze/bronze_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/bronze/bronze_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/bronze/bronze_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/bronze/bronze_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/bronze/bronze_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/bronze/bronze_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/bronze/bronze_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/bronze/bronze_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/bronze/bronze_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/bronze/bronze_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/bronze/bronze_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/bronze/bronze_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/bronze/bronze_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/bronze/bronze_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/bronze/bronze_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/bronze/bronze_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/bronze/bronze_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/bronze/bronze_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/bronze/bronze_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/bronze/bronze_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/bronze/bronze_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[19Dec2025 00:54:54.964] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/celestium/celestium_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/celestium/celestium_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/celestium/celestium_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/celestium/celestium_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/celestium/celestium_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/celestium/celestium_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/celestium/celestium_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/celestium/celestium_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/celestium/celestium_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/celestium/celestium_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/celestium/celestium_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/celestium/celestium_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/celestium/celestium_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/celestium/celestium_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/celestium/celestium_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/celestium/celestium_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/celestium/celestium_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/celestium/celestium_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/celestium/celestium_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/celestium/celestium_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/celestium/celestium_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/celestium/celestium_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/celestium/celestium_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/celestium/celestium_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/celestium/celestium_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/celestium/celestium_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/celestium/celestium_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/celestium/celestium_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/celestium/celestium_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/celestium/celestium_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[19Dec2025 00:54:54.966] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [simplyswords:mythicmetals_compat/orichalcum/orichalcum_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/orichalcum/orichalcum_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/orichalcum/orichalcum_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/orichalcum/orichalcum_katana (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/orichalcum/orichalcum_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/orichalcum/orichalcum_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/orichalcum/orichalcum_sai (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/orichalcum/orichalcum_spear (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/orichalcum/orichalcum_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/orichalcum/orichalcum_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/orichalcum/orichalcum_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/orichalcum/orichalcum_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/orichalcum/orichalcum_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/orichalcum/orichalcum_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), simplyswords:mythicmetals_compat/orichalcum/orichalcum_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)] as it is missing following references: simplyswords:mythicmetals_compat/orichalcum/orichalcum_claymore (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/orichalcum/orichalcum_cutlass (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/orichalcum/orichalcum_glaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/orichalcum/orichalcum_katana (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/orichalcum/orichalcum_longsword (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/orichalcum/orichalcum_rapier (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/orichalcum/orichalcum_sai (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/orichalcum/orichalcum_spear (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/orichalcum/orichalcum_twinblade (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/orichalcum/orichalcum_warglaive (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/orichalcum/orichalcum_greathammer (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/orichalcum/orichalcum_greataxe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/orichalcum/orichalcum_chakram (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/orichalcum/orichalcum_scythe (from simplyswords-forge-1.47.0-1.19.2.jar), 
+	simplyswords:mythicmetals_compat/orichalcum/orichalcum_halberd (from simplyswords-forge-1.47.0-1.19.2.jar)
+[19Dec2025 00:54:55.797] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
+[19Dec2025 00:54:55.920] [main/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table simplyswords:grant_book_on_first_join: com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
+[19Dec2025 00:54:56.045] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {arphex:entities/silverfish_spectre}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[19Dec2025 00:54:56.046] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {arphex:entities/long_legs}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[19Dec2025 00:54:56.046] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {arphex:entities/millipede_marauder}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[19Dec2025 00:54:56.047] [main/INFO] [placebo/]: Registered 0 additional loot tables.
+[19Dec2025 00:54:56.049] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.19.2-20220805.130853-srg.jar%23299!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:85) ~[server-1.19.2-20220805.130853-srg.jar%23299!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[19Dec2025 00:54:56.086] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/spartanshields/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
+[19Dec2025 00:54:56.117] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/spartanshields/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
+[19Dec2025 00:54:56.128] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: connectivity.json
+[19Dec2025 00:54:56.129] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement man:thetear: Non [a-z0-9/._-] character in path of location: man:tearoftheman
+
+[19Dec2025 00:54:56.161] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1423 advancements
+[19Dec2025 00:54:56.165] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[19Dec2025 00:54:56.263] [main/INFO] [majruszlibrary/]: [majruszlibrary.json] Reloading configuration file took 1 milliseconds
+[19Dec2025 00:54:56.264] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[19Dec2025 00:54:56.264] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[19Dec2025 00:54:56.265] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[19Dec2025 00:54:56.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[19Dec2025 00:54:56.516] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[19Dec2025 00:54:56.540] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[19Dec2025 00:54:56.620] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19Dec2025 00:54:56.620] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[19Dec2025 00:54:56.620] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19Dec2025 00:54:56.620] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[19Dec2025 00:54:56.764] [Server thread/INFO] [spark/]: Starting background profiler...
+[19Dec2025 00:54:57.584] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[19Dec2025 00:54:57.783] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: betterchunkloading.json
+[19Dec2025 00:54:57.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[19Dec2025 00:54:57.982] [Server thread/WARN] [mixin/]: Method overwrite conflict for removeIf in canary.mixins.json:world.chunk_tickets.SortedArraySetMixin, previously written by org.embeddedt.modernfix.common.mixin.bugfix.paper_chunk_patches.SortedArraySetMixin. Skipping method.
+[19Dec2025 00:55:00.040] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 331600 ms
+[19Dec2025 00:55:00.041] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.412s)! For help, type "help"
+[19Dec2025 00:55:00.139] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[19Dec2025 00:55:00.170] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: chunksending.json
+[19Dec2025 00:55:00.171] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: smoothchunk.json
+[19Dec2025 00:55:00.308] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 121845 bytes (in 13 string chunks with the size of 10000)
+[19Dec2025 00:55:00.309] [Server thread/WARN] [ModernFix/]: Dedicated server took 36.188 seconds to load
